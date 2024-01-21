@@ -1,27 +1,46 @@
-# CounterAppWithNGRX
+# NgRx: Angular State Management
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.10.
+This repository serves as a practical guide to implementing state management in Angular applications using NgRx. As Angular applications grow in complexity, managing state becomes a crucial aspect, and NgRx offers a robust solution.
 
-## Development server
+## Medium Article
+For a comprehensive understanding of the concepts covered here, please refer to the Medium article: [NGRX: Angular State Management Beginner's Guide](<>)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Repository Structure
+```bash
+src
+├── app
+│   ├── counter
+│   │   ├── counter.component.html
+│   │   ├── counter.component.scss
+│   │   ├── counter.component.spec.ts
+│   │   └── counter.component.ts
+│   ├── states
+│   │   ├── counter
+│   │   │   ├── counter.actions.ts
+│   │   │   ├── counter.reducer.ts
+│   │   │   └── counter.selector.ts
+│   │   └── app.state.ts
+│   ├── app.component.html
+│   └── app.module.ts
+```
 
-## Code scaffolding
+## Getting Started
+1. Clone this repository:
+   ```bash
+   git clone <repository-url>
+   ```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Build
+3. Run the Angular application:
+   ```bash
+   ng serve
+   ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Visit [http://localhost:4200/](http://localhost:4200/) to view the Counter App in action.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+*For a detailed walkthrough, refer to the [Medium article](<insert link to your Medium article>).*

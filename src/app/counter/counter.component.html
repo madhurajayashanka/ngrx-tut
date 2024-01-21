@@ -1,0 +1,11 @@
+<div class="counter-container">
+  <h1>Angular Counter App</h1>
+  <div class="counter">
+    <button (click)="decrement()">-</button>
+    <span>{{ counts|async }}</span>
+    <button (click)="increment()">+</button>
+  </div>
+  <div class="controls">
+    <button (click)="reset()">Reset</button>
+  </div>
+</div>
