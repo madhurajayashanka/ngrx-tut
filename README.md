@@ -3,7 +3,7 @@
 This repository serves as a practical guide to implementing state management in Angular applications using NgRx. As Angular applications grow in complexity, managing state becomes a crucial aspect, and NgRx offers a robust solution.
 
 ## Medium Article
-For a comprehensive understanding of the concepts covered here, please refer to the Medium article: [NGRX: Angular State Management Beginner's Guide](<>)
+For a comprehensive understanding of the concepts covered here, please refer to the Medium article: [NGRX: Angular State Management Beginner's Guide](<https://medium.com/@madhurajayashanka/ngrx-angular-state-management-beginners-guide-f8c022a8d665>)
 
 ## Repository Structure
 ```bash
@@ -27,7 +27,7 @@ src
 ## Getting Started
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/madhurajayashanka/ngrx-tut
    ```
 
 2. Install dependencies:
@@ -43,4 +43,4 @@ src
 Visit [http://localhost:4200/](http://localhost:4200/) to view the Counter App in action.
 
 ---
-*For a detailed walkthrough, refer to the [Medium article](<insert link to your Medium article>).*
+*For a detailed walkthrough, refer to the [Medium article](<https://medium.com/@madhurajayashanka/ngrx-angular-state-management-beginners-guide-f8c022a8d665>).*
